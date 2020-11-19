@@ -1,0 +1,52 @@
+<style>
+
+</style>
+
+<h1>Ask the Doc!</h1>
+        <p>Please fill out the form below with any Parkell product or practice questions. Someone from our team of doctors will get back to you shortly.</p>
+        <br>
+  <form id="fcf-form-id" class="fcf-form-class" method="post" action="http://www.parkell.com/SSP%20Applications/NetSuite%20Inc.%20-%20SCA%20Elbrus/Development/Form%20php%20code/contact-form-process.php">
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your Name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+          <label for="Phone" class="fcf-label">Your Phone Number</label>
+          <div class="fcf-input-group">
+              <input type="phone" id="Phone" name="Phone" class="fcf-form-control" required>
+          </div>
+      </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your Email Address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <label for="method-of-contact">Preferred Method of Contact</label><br />
+        <input type="radio" id="Method" name="Method" value="Phone"> Phone</input><br />
+        <input type="radio" id="Method" name="Method" value="Email"> Email</input><br />
+      <label for="reasons">Is your question about a Parkell product or your practice?<br />
+        <input type="checkbox" id="checkbox" name="Reason[]" value="Product">Product</input><br />
+        <input type="checkbox" id="checkbox" name="Reason[]" value="Practice">Practice</input><br />
+        <input type="checkbox" id="checkbox" name="Reason[]" value="Other">Other</input><br />
+     
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="10" cols="80" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Submit</button>
+        </div>
+
+
+    </form>
